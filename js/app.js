@@ -40,29 +40,19 @@ function showHeaderShrink() {
   }
 }
 
-$(".owl-carousel").owlCarousel({
+var owl = $(".owl-carousel");
+owl.owlCarousel({
+  items: 4,
   loop: true,
   margin: 10,
-  responsiveClass: true,
-  responsive: {
-    0: {
-      items: 1,
-      nav: true,
-    },
-    600: {
-      items: 3,
-      nav: false,
-    },
-    1000: {
-      items: 5,
-      nav: true,
-      loop: false,
-    },
-  },
+  nav: true,
+  autoplay: true,
+  autoplayTimeout: 1000,
+  autoplayHoverPause: true,
 });
-// $(".play").on("click", function () {
-//   owl.trigger("play.owl.autoplay", [10]);
-// });
-// $(".stop").on("click", function () {
-//   owl.trigger("stop.owl.autoplay");
-// });
+$(".play").on("click", function () {
+  owl.trigger("play.owl.autoplay", [10]);
+});
+$(".stop").on("click", function () {
+  owl.trigger("stop.owl.autoplay");
+});
