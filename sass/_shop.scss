@@ -1,0 +1,35 @@
+.shop {
+  display: flex;
+  align-items: center;
+  padding: 100px 0px;
+  gap: 90px;
+  .shop__left {
+    width: 60%;
+    .shop__left__title {
+      font-family: Montserrat;
+      font-size: 100px;
+      font-weight: 700;
+      line-height: 122px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .shop__left__text {
+      font-family: Montserrat;
+      font-size: 100px;
+      font-weight: 700;
+      line-height: 122px;
+      letter-spacing: 0em;
+      text-align: left;
+      padding: 10px 0px 50px;
+    }
+  }
+  .shop__right {
+    width: 40%;
+    img {
+      width: 100%;
+    }
+  }
+}
+.line {
+  border: 1px solid #282A30;
+}

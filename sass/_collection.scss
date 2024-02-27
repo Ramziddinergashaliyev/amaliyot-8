@@ -1,0 +1,71 @@
+.collection {
+  position: relative;
+  justify-content: center;
+  .collection__text {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .collection__title {
+    font-family: Montserrat;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 122px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 20px 0px 70px;
+  }
+
+  .collection__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      box-shadow: 0px 0px 10px gray;
+    }
+  }
+
+  .collection__card {
+    width: 25%;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 40px;
+    top: 400px;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    position: absolute;
+    .collection__card__title {
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .collection__card__text {
+      font-family: Nunito;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: gray;
+    }
+  }
+  .collection__card__right {
+    left: 700px;
+    top: 190px;
+  }
+  .collection__card__left {
+    top: 650px;
+    right: 0;
+  }
+}
+
+
+
+

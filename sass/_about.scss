@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  padding: 60px 0px;
+  .about__left {
+    width: 40%;
+    img {
+      width: 100%;
+    }
+  }
+  .about__right {
+    width: 60%;
+    .about__right__desc {
+      font-family: Montserrat;
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 73px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .about__right__title {
+      font-family: Montserrat;
+      font-size: 100px;
+      font-weight: 700;
+      line-height: 122px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .about__right__text {
+      font-family: Nunito;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: left;
+      padding: 30px 0px;
+    }
+  }
+}
