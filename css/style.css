@@ -85,6 +85,7 @@ button {
 .home__card .home__left .home__left__btns {
   display: flex;
   gap: 30px;
+  padding: 10px 20px;
 }
 .home__card .home__left .home__left__btns .vidio__btn:hover {
   background-color: #F7515C;
@@ -445,6 +446,14 @@ body {
   letter-spacing: 1px;
   text-align: left;
   color: rgba(40, 42, 48, 0.8);
+}
+.footer__row .footer__item__list:hover {
+  color: #F7515C;
+  cursor: pointer;
+}
+.footer__row .footer__text:hover {
+  color: #F7515C;
+  cursor: pointer;
 }
 
 .corousel__img {

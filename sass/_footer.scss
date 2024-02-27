@@ -24,4 +24,12 @@
     text-align: left;
     color: #282A30CC;
   }
+  .footer__item__list:hover {
+    color: $hoverColor;
+    cursor: pointer;
+  }
+  .footer__text:hover {
+    color: $hoverColor;
+    cursor: pointer;
+  }
 }
